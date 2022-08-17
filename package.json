@@ -1,0 +1,18 @@
+{
+  "name": "replitclient",
+  "version": "1.0.0",
+  "description": "UnOfficial Replit.com Desktop Launcher",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build-linux": "electron-builder build --linux --publish never",
+    "build-win": "electron-builder build --win"
+  },
+  "author": "Ömer Asaf Karasu",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.1.12",
+    "electron-builder": "^23.3.3"
+  }
+}
